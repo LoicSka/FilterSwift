@@ -1,0 +1,13 @@
+//
+//  FilterStore.swift
+//  ClothingStoreFilter
+//
+//  Created by Loic Shyaka on 2/3/18.
+//  Copyright © 2018 721 Ltd. All rights reserved.
+//
+
+import Foundation
+
+protocol FilterStore {
+    func allFilters() -> [Filter]
+}
